@@ -3,7 +3,7 @@ layout: post
 title:  "qmsgggtest"
 categories: linux
 tags:  centos7 crontab linux 工具软件  
-author: qmsggg
+author: SnakeSon
 ---
 
 * content
