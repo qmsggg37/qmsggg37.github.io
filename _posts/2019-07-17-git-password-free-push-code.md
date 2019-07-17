@@ -22,7 +22,7 @@ tags: git tools
    - 另一种方式就是改变`remote`远程`url`，如下：
     ```
     $ git remote rm origin  
-    $ git remote add origin git@github.com:cld378632668/utils.git
+    $ git remote add origin git@github.com:qmsggg37/qmsggg37.github.io.git
     ```
 
 ## 详细步骤
