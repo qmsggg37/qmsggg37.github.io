@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "googletest使用系列之一前言"
+title:  "googletest使用系列"
 categories: googletest
 tags:  google gtest coding googletest  
 author: qmsggg37
