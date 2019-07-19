@@ -11,6 +11,8 @@ type: page
 
 ## 屌丝必备
 * [https://www.v2ex.com/](https://www.v2ex.com/)
+## kindle
+* [看云](https://www.kancloud.cn/explore)
 
 ## Comments
 
