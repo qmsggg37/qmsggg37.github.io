@@ -9,6 +9,15 @@ type: page
 * content
 {:toc}
 
+## 编程语言
+### C++
+
+* [值得推荐的 C++11 风格的开源项目](https://www.zhihu.com/question/23511894)
+
+* [Boost](https://github.com/boostorg)
+
+* [GitHub 通告：整理了一个 C 和 C++ 开源库的清单（含示例代码）](https://blog.csdn.net/benpaobagzb/article/details/50783501)
+
 ## 软件工程
 
 * [史上最全设计模式导学目录（完整版）](https://blog.csdn.net/lovelion/article/details/17517213)
@@ -18,9 +27,11 @@ type: page
 ## Linux
 
 * [Linux源码](https://git.kernel.org/)
-#### 在线阅读Linux的内核源码:
-    - [https://code.woboq.org/linux/linux/](https://code.woboq.org/linux/linux/)
-    - [http://oldlinux.org/Linux.old/kernel/Historic/](http://oldlinux.org/Linux.old/kernel/Historic/)
+### 在线阅读Linux的内核源码:
+
+* [https://code.woboq.org/linux/linux/](https://code.woboq.org/linux/linux/)
+    
+* [http://oldlinux.org/Linux.old/kernel/Historic/](http://oldlinux.org/Linux.old/kernel/Historic/)
 
 ## 工具
 
