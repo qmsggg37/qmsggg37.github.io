@@ -9,6 +9,19 @@ type: page
 * content
 {:toc}
 
+## 软件工程
+
+* [史上最全设计模式导学目录（完整版）](https://blog.csdn.net/lovelion/article/details/17517213)
+
+* [java-design-patterns ](https://github.com/iluwatar/java-design-patterns)
+
+## Linux
+
+* [Linux源码](https://git.kernel.org/)
+#### 在线阅读Linux的内核源码:
+    - [https://code.woboq.org/linux/linux/](https://code.woboq.org/linux/linux/)
+    - [http://oldlinux.org/Linux.old/kernel/Historic/](http://oldlinux.org/Linux.old/kernel/Historic/)
+
 ## 工具
 
 * [box-shadow generator](http://www.cssmatic.com/box-shadow)
