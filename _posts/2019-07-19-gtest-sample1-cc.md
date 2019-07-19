@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "gtest的samples分析学习之sample1.cc"
+categories: googletest
+tags:  google gtest coding googletest sample
+author: qmsggg37
+---
+
+* content
+{:toc}
+
 # gtest的samples分析学习之sample1.cc
 ```
 sample1.cc
