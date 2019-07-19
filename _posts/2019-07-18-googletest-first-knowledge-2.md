@@ -21,3 +21,14 @@ $ cmake -Dgtest_build_tests=on -DCMAKE_INSTALL_PREFIX=. ..
 $ make; make install
 ```
 经过编译之后， 在mybuild目录下面， 产生了lib 和include目录， 有我们需要的头文件：include/gtest/gtest.h 以及静态库： lib/libgtest.a。
+```
+-rw-r--r-- 1 root root 18974 Jul 17 10:44 CMakeCache.txt
+drwxr-xr-x 4 root root  4096 Jul 17 10:46 CMakeFiles
+-rw-r--r-- 1 root root   329 Jul 17 10:44 CTestTestfile.cmake
+-rw-r--r-- 1 root root 35112 Jul 17 10:44 Makefile
+drwxr-xr-x 2 root root  4096 Jul 17 10:44 bin
+-rw-r--r-- 1 root root  1774 Jul 17 10:44 cmake_install.cmake
+drwxr-xr-x 3 root root  4096 Jul 17 10:44 googlemock
+drwxr-xr-x 4 root root  4096 Jul 17 10:46 googletest
+drwxr-xr-x 2 root root  4096 Jul 17 10:46 lib
+```
