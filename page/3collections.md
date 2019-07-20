@@ -18,6 +18,8 @@ type: page
 
 * [GitHub 通告：整理了一个 C 和 C++ 开源库的清单（含示例代码）](https://blog.csdn.net/benpaobagzb/article/details/50783501)
 
+*  [C++命名规范(参考google C++规范)](http://blog.csdn.net/u014294166/article/details/52772133)
+
 ## 软件工程
 
 * [史上最全设计模式导学目录（完整版）](https://blog.csdn.net/lovelion/article/details/17517213)
