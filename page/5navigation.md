@@ -29,6 +29,12 @@ type: page
 *  [Firebase 博客](https://firebase.googleblog.com/)
 *  [Google Research Blog](https://research.googleblog.com/)
 
+## linux
+
+* [Linux Story](https://linuxstory.org/)
+
+* [Free SoftWare](https://shop.fsf.org/)
+
 ## Comments
 
 {% include comments.html %}
