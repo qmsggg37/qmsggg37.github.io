@@ -24,6 +24,15 @@ type: page
 
 * [java-design-patterns ](https://github.com/iluwatar/java-design-patterns)
 
+## 数据结构与算法
+
+* [leetcode.com current github](https://leetcode.com/)
+* [hihoCoder QQ](https://hihocoder.com/discuss)
+* [hd qmsggg + nickname+bir](http://acm.hdu.edu.cn/listproblem.php?vol=1)
+* [zju qmsggg + nickname+bir](http://acm.zju.edu.cn/onlinejudge/showProblemsets.do)
+* [程序员面试、算法研究、编程艺术、红黑树、机器学习5大系列集锦](http://blog.csdn.net/v_july_v/article/details/6543438)
+* [我的算法学习之路](http://blog.jobbole.com/67348/)
+
 ## Linux
 
 * [Linux源码](https://git.kernel.org/)
