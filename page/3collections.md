@@ -333,6 +333,10 @@ Syntax Theme: Atom Dark or One Dark
 
     首页的卡片翻动效果非常赞。
 
+## 简历
+
+* [Resume Templates](https://www.canva.com/templates/resumes/)
+
 ## Comments
 
 {% include comments.html %}
