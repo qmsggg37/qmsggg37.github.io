@@ -14,6 +14,8 @@ type: page
 
 * [Get社区](http://get.ftqq.com/?c=card)
 
+* [程序员找工作黑名单](http://coder.shengxinjing.cn/)
+
 ## kindle
 * [看云](https://www.kancloud.cn/explore)
 
