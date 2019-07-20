@@ -87,3 +87,6 @@ exit
 Process finished with exit code 0
 ```
 
+参考：
+- [ ] [详解Python中contextlib上下文管理模块的用法](http://www.jb51.net/article/87533.htm)
+- [ ] [深入解析Python中的上下文管理器](http://www.jb51.net/article/87537.htm)
