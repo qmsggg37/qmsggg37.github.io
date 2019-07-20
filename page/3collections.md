@@ -37,6 +37,10 @@ type: page
 
 * [progit2-gitbook](https://github.com/bingohuang/progit2-gitbook)
 
+### 大公司github
+
+* [Tencent](https://github.com/Tencent)
+
 ## 工具
 
 * [box-shadow generator](http://www.cssmatic.com/box-shadow)
