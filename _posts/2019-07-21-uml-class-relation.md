@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "UML类图几种关系的总结"
-categories: UML
+title:  "uml类图几种关系的总结"
+categories: uml
 tags:  uml 软件工程
 author: qmsggg37
 ---
