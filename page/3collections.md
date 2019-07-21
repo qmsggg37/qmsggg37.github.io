@@ -16,10 +16,11 @@ type: page
 * [Boost](https://github.com/boostorg)
 * [GitHub 通告：整理了一个 C 和 C++ 开源库的清单（含示例代码）](https://blog.csdn.net/benpaobagzb/article/details/50783501)
 * [C++命名规范(参考google C++规范)](http://blog.csdn.net/u014294166/article/details/52772133)
-* [Thrift | 来进行可扩展且跨语言的服务的开发(类似的还有个Avro，Google protobuf)]()
-* [libevent | 是一个事件触发的网络库，适用于windows、linux、bsd等多种平台，内部使用select、epoll、kqueue等系统调用管理事件机制]()
-* [breakpad | 崩溃转储和分析模块，很多crashreport会用到]()
-* [SCons | 简单而强大的项目编译脚本]()
+#### 开源库
+* [Thrift-来进行可扩展且跨语言的服务的开发(类似的还有个Avro，Google protobuf)]()
+* [libevent-是一个事件触发的网络库，适用于windows、linux、bsd等多种平台，内部使用select、epoll、kqueue等系统调用管理事件机制]()
+* [breakpad-崩溃转储和分析模块，很多crashreport会用到]()
+* [SCons-简单而强大的项目编译脚本]()
 
 ## 软件工程
 
