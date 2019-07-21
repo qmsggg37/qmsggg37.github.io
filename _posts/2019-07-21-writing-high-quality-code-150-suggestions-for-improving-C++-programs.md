@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "编写高质量代码：改善C++程序的150个建议"
-categories: C++
-tags:  C++ 150个建议
+categories: c++
+tags:  c++ 150个建议
 author: qmsggg37
 ---
 
