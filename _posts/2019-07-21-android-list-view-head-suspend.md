@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "ListView悬浮头部实现"
-date:   2019-07-17 20:14:54
-categories: java
-tags: java arrayList toArray
+date:   2019-07-21 14:14:54
+categories: android
+tags: java android listView
 ---
 
 * content
