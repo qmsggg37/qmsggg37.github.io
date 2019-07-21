@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "C++ static类成员"
-categories: C++
-tags:  C++ static 类成员
+title:  "c++ static类成员"
+categories: c++
+tags:  c++ static 类成员
 author: qmsggg37
 ---
 
