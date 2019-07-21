@@ -350,8 +350,8 @@ Syntax Theme: Atom Dark or One Dark
 * [自动纠错的终端-3.9k stars](https://github.com/nvbn/thefuck)
 * [世界上最简单的人脸识别库-19k stars](https://github.com/ageitgey/face_recognition)
 * [QuickLook-2.4k stars](https://github.com/QL-Win/QuickLook)
-* [500lines-20k stars | 英文版](https://github.com/aosabook/500lines)
-* [500lines-20k stars | 中文翻译（未翻译完）](https://github.com/HT524/500LineorLess_CN)
+* [500lines-20k stars-英文版](https://github.com/aosabook/500lines)
+* [500lines-20k stars-中文翻译（未翻译完）](https://github.com/HT524/500LineorLess_CN)
 * [C++ 写的终端 2048 游戏-1.1k stars](https://github.com/plibither8/2048.cpp)
 
 ## Comments
