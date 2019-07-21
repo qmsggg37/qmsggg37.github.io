@@ -39,6 +39,46 @@ type: page
 * [程序员面试、算法研究、编程艺术、红黑树、机器学习5大系列集锦](http://blog.csdn.net/v_july_v/article/details/6543438)
 * [我的算法学习之路](http://blog.jobbole.com/67348/)
 
+## Android
+* [阿里巴巴 Android 开发手册](https://github.com/qmsggg/qmsggg_BlogCollect/issues/145)
+
+### 关注的开源库 🔧
+
+* [CC](https://github.com/luckybilly/CC?utm_source=gold_browser_extension)
+
+```
+业界首个支持渐进式组件化改造的Android组件化开源框架。
+```
+
+* [AndroidSdkSourceAnalysis](https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis)
+
+```
+android sdk 源码解析——旨在帮助Android开发者更好的学习Android！
+自己fork下来完成接下来的剩余SDK接口分析。
+```
+
+### TOOLS
+
+* [dryrun](https://github.com/cesarferreira/dryrun)
+
+```
+说明： 使用dryrun工具可以直接从github地址就可以编译并运行AndroidApp工程
+```
+* [dryrun工具安装使用教程](https://github.com/qmsggg/qmsggg_BlogCollect/issues/187)
+
+* [pandora](https://github.com/whataa/pandora)
+
+```
+直接在应用内查看和修改：
+1. 查看所有数据库，支持直接进行增删改查操作；
+2. 查看并编辑所有Shared Preference；
+3. 查看自身应用的内部存储系统；
+4. 如果是okhttp 支持网络信息查看；
+5. 预览当前页面的视图层级、查看/修改常用控件的属性；
+6. 测量控件之间距离、检测是否对齐；
+7. 选中页面上的任意控件以移动位置、查看自身大小、显示相对关系；
+```
+
 ## Linux
 
 * [Linux源码](https://git.kernel.org/)
