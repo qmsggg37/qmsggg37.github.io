@@ -11,10 +11,10 @@ type: page
 
 ## 屌丝必备
 * [https://www.v2ex.com/](https://www.v2ex.com/)
-
 * [Get社区](http://get.ftqq.com/?c=card)
-
 * [程序员找工作黑名单](http://coder.shengxinjing.cn/)
+* [Hacker News](https://news.ycombinator.com/)
+* [it-ebooks | 免费电子书](http://it-ebooks.info/)
 
 ## kindle
 * [看云](https://www.kancloud.cn/explore)
