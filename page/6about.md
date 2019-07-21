@@ -10,7 +10,7 @@ type: page
 {:toc}
 
 ## 关于我
-
+* [简书](https://www.jianshu.com/u/5d8c922fe367)
 ## Comments
 
 {% include comments.html %}
