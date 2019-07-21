@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Linux显示cpu是几核"
-categories: Linux
-tags:  Linux cpu
+title:  "linux显示cpu是几核"
+categories: linux
+tags:  linux cpu
 author: qmsggg37
 ---
 
