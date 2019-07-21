@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "C++智能指针"
-categories: C++
-tags:  C++ C++11 智能指针
+title:  "c++智能指针"
+categories: c++
+tags:  c++ c++11 智能指针
 author: qmsggg37
 ---
 
