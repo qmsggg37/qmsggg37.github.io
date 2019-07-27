@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Auto类型推导"
-categories: c++11
+categories: c++
 tags:  c++11 c++ coding 深入应用c++11  
 author: qmsggg37
 ---
