@@ -40,10 +40,9 @@ type: page
 * [AndroidStudio中文网站](http://www.android-studio.org/)
 
 ## linux
-
 * [Linux Story](https://linuxstory.org/)
-
 * [Free SoftWare](https://shop.fsf.org/)
+* [explainshell](https://explainshell.com/)
 
 ## Comments
 
