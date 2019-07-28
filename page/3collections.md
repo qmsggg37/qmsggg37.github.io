@@ -17,6 +17,8 @@ type: page
 * [GitHub 通告：整理了一个 C 和 C++ 开源库的清单（含示例代码）](https://blog.csdn.net/benpaobagzb/article/details/50783501)
 * [C++命名规范(参考google C++规范)](http://blog.csdn.net/u014294166/article/details/52772133)
 * [Debugging with GDB](https://sourceware.org/gdb/onlinedocs/gdb/)
+* [cplusplus](http://www.cplusplus.com/)
+* [gcc.gnu.org](http://gcc.gnu.org/)
 
 #### 开源库
 
