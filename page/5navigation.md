@@ -44,6 +44,9 @@ type: page
 * [Free SoftWare](https://shop.fsf.org/)
 * [explainshell](https://explainshell.com/)
 
+## huawei
+* [LiteOs](https://github.com/LiteOS)
+
 ## Comments
 
 {% include comments.html %}
