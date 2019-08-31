@@ -168,6 +168,7 @@ MESSAGE(STATUS “This is BINARY dir ${HELLO_BINARY_DIR}”)
 ADD_EXECUTABLE(t1 main.c)  
 ```
 编译后会生成一个 `t1` 可执行文件。  
+
 ### 5，关于语法的疑惑   
 `cmake` 的语法还是比较灵活而且考虑到各种情况，比如  
 `SET(SRC_LIST main.c)`也可以写成 `SET(SRC_LIST “main.c”) ` 
