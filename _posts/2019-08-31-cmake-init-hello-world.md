@@ -253,6 +253,7 @@ build)`，而 `cmake` 强烈推荐的是外部构建`(out-of-source build)`。
     通过外部编译进行工程构建，`HELLO_SOURCE_DIR` 仍然指代工程路径，即  
     `/backup/cmake/t1`  
     而 `HELLO_BINARY_DIR` 则指代编译路径，即`/backup/cmake/t1/build`  
+  
 ### 9，小结：
 本小节描述了使用 `cmake` 构建 `Hello World` 程序的全部过程，并介绍了三个简单的指令：  
 `PROJECT/MESSAGE/ADD_EXECUTABLE` 以及变量调用的方法，同时提及了两个隐式变量  
