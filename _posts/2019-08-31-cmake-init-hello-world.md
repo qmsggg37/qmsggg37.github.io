@@ -147,27 +147,27 @@ ADD_EXECUTABLE(hello main.c)
 `”cmake 语言和语法”`，最简单的语法规则是：  
   - 1，变量使用${}方式取值，但是在`IF`控制语句中是直接使用变量名  
   - 2，指令(参数 1 参数 2...)  
-参数使用括弧括起，参数之间使用空格或分号分开。  
-以上面的`ADD_EXECUTABLE`指令为例，如果存在另外一个`func.c`源文件，就要写成：  
-  ```
-  ADD_EXECUTABLE(hello main.c func.c)或者  
-  ADD_EXECUTABLE(hello main.c;func.c)  
-  ```
+    参数使用括弧括起，参数之间使用空格或分号分开。  
+    以上面的`ADD_EXECUTABLE`指令为例，如果存在另外一个`func.c`源文件，就要写成：  
+    ```
+    ADD_EXECUTABLE(hello main.c func.c)或者  
+    ADD_EXECUTABLE(hello main.c;func.c)  
+    ```
   - 3，指令是大小写无关的，参数和变量是大小写相关的。但，推荐你全部使用大写指令。  
-上面的 `MESSAGE` 指令我们已经用到了这条规则：  
-```
-MESSAGE(STATUS “This is BINARY dir” ${HELLO_BINARY_DIR})  
-```
-也可以写成：  
-```
-MESSAGE(STATUS “This is BINARY dir ${HELLO_BINARY_DIR}”)  
-```
-这里需要特别解释的是作为工程名的 `HELLO` 和生成的可执行文件 `hello` 是没有任何关系的。  
-`hello` 定义了可执行文件的文件名，你完全可以写成： 
-```
-ADD_EXECUTABLE(t1 main.c)  
-```
-编译后会生成一个 `t1` 可执行文件。  
+    上面的 `MESSAGE` 指令我们已经用到了这条规则：  
+    ```
+    MESSAGE(STATUS “This is BINARY dir” ${HELLO_BINARY_DIR})  
+    ```
+    也可以写成：  
+    ```
+    MESSAGE(STATUS “This is BINARY dir ${HELLO_BINARY_DIR}”)  
+    ```
+    这里需要特别解释的是作为工程名的 `HELLO` 和生成的可执行文件 `hello` 是没有任何关系的。  
+    `hello` 定义了可执行文件的文件名，你完全可以写成： 
+    ```
+    ADD_EXECUTABLE(t1 main.c)  
+    ```
+    编译后会生成一个 `t1` 可执行文件。  
 
 ### 5，关于语法的疑惑   
 `cmake` 的语法还是比较灵活而且考虑到各种情况，比如  
@@ -238,21 +238,21 @@ build)`，而 `cmake` 强烈推荐的是外部构建`(out-of-source build)`。
 对于 `cmake`，内部编译上面已经演示过了，它生成了一些无法自动删除的中间文件，所以，  
 引出了我们对外部编译的探讨，外部编译的过程如下：  
   - 1，首先，请清除 `t1` 目录中除 `main.c CmakeLists.txt` 之外的所有中间文件，最关键  
-的是 `CMakeCache.txt`。  
+    的是 `CMakeCache.txt`。  
   - 2，在 `t1` 目录中建立 `build` 目录，当然你也可以在任何地方建立 `build` 目录，不一定必  
-须在工程目录中。  
+    须在工程目录中。  
   - 3，进入 `build` 目录，运行 `cmake ..`(注意,`..`代表父目录，因为父目录存在我们需要的  
-`CMakeLists.txt`，如果你在其他地方建立了 `build` 目录，需要运行 `cmake` <工程的全  
-路径>)，查看一下 `build` 目录，就会发现了生成了编译需要的 `Makefile` 以及其他的中间  
-文件.  
+    `CMakeLists.txt`，如果你在其他地方建立了 `build` 目录，需要运行 `cmake` <工程的全  
+    路径>)，查看一下 `build` 目录，就会发现了生成了编译需要的 `Makefile` 以及其他的中间  
+    文件.  
   - 4，运行 `make` 构建工程，就会在当前目录`(build 目录)`中获得目标文件 `hello`。  
-上述过程就是所谓的 `out-of-source` 外部编译，一个最大的好处是，对于原有的工程没  
-有任何影响，所有动作全部发生在编译目录。通过这一点，也足以说服我们全部采用外部编  
-译方式构建工程。  
-这里需要特别注意的是：  
-通过外部编译进行工程构建，`HELLO_SOURCE_DIR` 仍然指代工程路径，即  
-`/backup/cmake/t1`  
-而 `HELLO_BINARY_DIR` 则指代编译路径，即`/backup/cmake/t1/build`  
+    上述过程就是所谓的 `out-of-source` 外部编译，一个最大的好处是，对于原有的工程没  
+    有任何影响，所有动作全部发生在编译目录。通过这一点，也足以说服我们全部采用外部编  
+    译方式构建工程。  
+    这里需要特别注意的是：  
+    通过外部编译进行工程构建，`HELLO_SOURCE_DIR` 仍然指代工程路径，即  
+    `/backup/cmake/t1`  
+    而 `HELLO_BINARY_DIR` 则指代编译路径，即`/backup/cmake/t1/build`  
 ### 9，小结：
 本小节描述了使用 `cmake` 构建 `Hello World` 程序的全部过程，并介绍了三个简单的指令：  
 `PROJECT/MESSAGE/ADD_EXECUTABLE` 以及变量调用的方法，同时提及了两个隐式变量  
