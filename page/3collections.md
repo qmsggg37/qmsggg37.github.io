@@ -135,6 +135,8 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 - [google fonts](https://fonts.google.com/)
   - [Google Fonts 加速代理](https://fengmk2.com/blog/2016/google-fonts-mirror)
 
+- [gdb 100 tips](https://github.com/hellogcc/100-gdb-tips)
+
 ## 编程语言
 
 ### JavaScript
