@@ -137,11 +137,22 @@ INSTALL(FILES hello.h DESTINATION include/hello)
 注意，静态库要使用 `ARCHIVE` 关键字
 通过:
 ```
-cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+cmake -DCMAKE_INSTALL_PREFIX=/tmp/t3/usr ..
 make
 make install
+
+[ 50%] Built target hello_static
+[100%] Built target hello
+Install the project...
+-- Install configuration: ""
+-- Installing: /tmp/t3/usr/lib/libhello.so.1.2
+-- Installing: /tmp/t3/usr/lib/libhello.so.1
+-- Installing: /tmp/t3/usr/lib/libhello.so
+-- Installing: /tmp/t3/usr/lib/libhello.a
+-- Installing: /tmp/t3/usr/include/hello/hello.h
+
 ```
-我们就可以将头文件和共享库安装到系统目录`/usr/lib 和/usr/include/hello` 中了。
+我们就可以将头文件和共享库安装到系统目录`/tmp/t3/usr/lib 和/tmp/t3/usr/include/hello` 中了。
 ## 七，小结:
 本小节，我们谈到了:
 如何通过 `ADD_LIBRARY` 指令构建动态库和静态库。
