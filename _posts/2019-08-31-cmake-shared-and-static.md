@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "cmake初试"
+title:  "cmake静态库与动态库构建"
 date:   2019-08-31 20:14:54
 categories: cmake
 tags: cmake
@@ -159,3 +159,6 @@ Install the project...
 如何通过 `SET_TARGET_PROPERTIES` 同时构建同名的动态库和静态库。 如何通过 `SET_TARGET_PROPERTIES` 控制动态库版本 
 最终使用上一节谈到的 `INSTALL` 指令来安装头文件和动态、静态库。
 在下一篇文章，我们需要编写另一个高级一点的`Hello World`来演示怎么使用我们已经构建的 构建的共享库 `libhello` 和外部头文件。
+
+
+注：[参考代码](https://github.com/qmsggg37/cmake)
