@@ -221,6 +221,7 @@ touch README
 3，安装 `doc` 中的 `hello.txt`，这里有两种方式:一是通过在 `doc` 目录建立 `CMakeLists.txt` 
    并将 `doc` 目录通过 `ADD_SUBDIRECTORY` 加入工程来完成。另一种方法 是直接在工程目录通过  
    `INSTALL(DIRECTORY 来完成)`，前者比较简单，各位可以根据兴趣自己完成，我们来尝试 后者，顺便演示以下 `DIRECTORY` 的安装。  
+4, 安装可执行文件`hello`到`/<prefix>/bin`中`INSTALL(TARGETS hello RUNTIME DESTINATION bin)`
 ```
 因为 `hello.txt` 要安装到`/<prefix>/share/doc/cmake/t2`，所以我们不能直接安装 整个 `doc` 目录，
 这里采用的方式是安装 `doc` 目录中的内容，也就是使用`”doc/”`
