@@ -265,3 +265,6 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
 `CMAKE_INSTALL_PREFIX` 变量(你真够牛的，这么点东西居然罗唆了这么多文字)
 在下一文章，我们将探讨如何在 `cmake` 中构建动态库和静态库，以及如何使用外部头文件 和外部共享库，
 毕竟，这是程序编写中最长使用的(对了，你知道用怎样的 `gcc` 参数可以 直接构建静态库和动态库吗?)
+
+
+注：[参考代码](https://github.com/qmsggg37/cmake)
