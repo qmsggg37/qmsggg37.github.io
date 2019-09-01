@@ -263,3 +263,5 @@ build)`，而 `cmake` 强烈推荐的是外部构建`(out-of-source build)`。
 甚至我都可以不编写 `Makefile`，直接使用 `gcc main.c` 即可生成需要的目标文件。是的，  
 正如第一节提到的，如果工程只有几个文件，还是直接编写 `Makefile` 最简单。但是，  
 `kdelibs` 压缩包达到了 `50` 多 `M`，您认为使用什么方案会更容易一点呢？  
+
+注：[参考代码](https://github.com/qmsggg37/cmake)
