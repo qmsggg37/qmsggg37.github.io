@@ -206,7 +206,7 @@ INSTALL([[SCRIPT <file>] [CODE <code>]] [...])
 随便填写一些内容并保存  
 在工程目录添加 `runhello.sh` 脚本，内容为:
 ```
-hello
+./hello
 ```
 添加工程目录中的 `COPYRIGHT` 和 `README` 
 ```
