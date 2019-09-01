@@ -65,6 +65,15 @@ main.c:(.text+0x12): undefined reference to `HelloFunc' 因为我们并没有 li
 ```
 LINK_DIRECTORIES(directory1 directory2 ...)
 ```
+
+```
+这个要在ADD_EXECUTABLE之前！！！！！！！
+INCLUDE_DIRECTORIES(/tmp/t3/usr/include/hello)
+LINK_DIRECTORIES(/tmp/t3/usr/lib)
+ADD_EXECUTABLE(main main.c)
+TARGET_LINK_LIBRARIES(main libhello.so)
+```
+
 这个指令非常简单，添加非标准的共享库搜索路径，比如，在工程内部同时存在共享库和可
 执行二进制，在编译时就需要指定一下这些共享库的路径。这个例子中我们没有用到这个指
 令。
