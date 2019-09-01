@@ -41,7 +41,7 @@ PROJECT (HELLO)
 SET(SRC_LIST main.c)  
 MESSAGE(STATUS "This is BINARY dir " ${HELLO_BINARY_DIR})  
 MESSAGE(STATUS "This is SOURCE dir "${HELLO_SOURCE_DIR})  
-ADD_EXECUTABLE(hello SRC_LIST)  
+ADD_EXECUTABLE(hello ${SRC_LIST}))  
 ```
 ### 2，开始构建
 所有的文件创建完成后，`t1`目录中应该存在`main.c`和`CMakeLists.txt`两个文件  
