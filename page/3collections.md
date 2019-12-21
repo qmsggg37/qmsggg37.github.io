@@ -19,6 +19,7 @@ type: page
 * [Debugging with GDB](https://sourceware.org/gdb/onlinedocs/gdb/)
 * [cplusplus](http://www.cplusplus.com/)
 * [gcc.gnu.org](http://gcc.gnu.org/)
+* [https://www.nuget.org](https://www.nuget.org)
 
 #### 开源库
 
