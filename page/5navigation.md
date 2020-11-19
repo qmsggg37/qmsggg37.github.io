@@ -10,13 +10,16 @@ type: page
 {:toc}
 
 ## 编程语言
-
 - C/C++
 - Python
 - Rust
 - Golang
 - Java
 - JavaScript/CSS/HTML
+
+## Web
+- Vue
+- uni-app
 
 ## Linux
 - 操作系统原理
