@@ -18,8 +18,8 @@ type: page
 - JavaScript/CSS/HTML
 
 ## Web
-- Vue
-- uni-app
+- [vue](https://cn.vuejs.org/)
+- [uni-app](https://uniapp.dcloud.io/)
 
 ## Linux
 - 操作系统原理
