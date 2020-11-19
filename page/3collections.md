@@ -9,6 +9,10 @@ type: page
 * content
 {:toc}
 
+##Web
+### 综合
+* [前端知识每日3+1](http://www.h-camel.com/category.html)
+
 ## 编程语言
 ### C++
 
