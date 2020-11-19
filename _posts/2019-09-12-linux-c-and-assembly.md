@@ -31,24 +31,6 @@ int main(void)
 
 
 
-c语言程序:
-```
-int g(int x)
-{
-    return x + 3;
-}
-
-int f(int x)
-{
-    return g(x);
-}
-
-int main(void)
-{
-    return f(8) + 1;
-}
-```
-
 使用汇编指令编译结果：
 ```
 gcc -S -o linux_test.s linux_test.c -m32
