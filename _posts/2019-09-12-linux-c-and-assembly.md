@@ -28,6 +28,9 @@ int main(void)
 }
 ```
 
+
+
+
 c语言程序:
 ```
 int g(int x)
