@@ -4,10 +4,12 @@ title:  "c程序和其对应的汇编程序"
 date:   2019-09-12 21:0:54
 categories: linux
 tags: linux c assembly
-excerpt: 曲径通幽处，轻抚美景在险峰！
 author: qmsggg37
 mathjax: true
 ---
+
+* content
+{:toc}
 
 c语言程序:
 ```
