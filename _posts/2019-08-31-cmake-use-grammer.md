@@ -17,6 +17,10 @@ author: qmsggg37
 和`<projectname>_SOURCE_DIR` 两个变 量。
 显式定义的例子我们前面也提到了，使用 `SET` 指令，就可以构建一个自定义变量了。 比如:
 `SET(HELLO_SRC main.SOURCE_PATHc)`，就`PROJECT_BINARY_DIR`可以通过 `${HELLO_SRC}`来引用这个自定义变量了.
+
+
+
+
 ## 三，`cmake` 常用变量: 
   - 1，`CMAKE_BINARY_DIR` `PROJECT_BINARY_DIR` `<projectname>_BINARY_DIR`
     这三个变量指代的内容是一致的，如果是`in source`编译，指得就是工程顶层目录，
