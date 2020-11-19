@@ -16,6 +16,7 @@ type: page
 - Golang
 - Java
 - JavaScript/CSS/HTML
+- Kotlin 
 
 ## Web
 - [vue](https://cn.vuejs.org/)
