@@ -4,6 +4,7 @@ title:  "c程序和其对应的汇编程序"
 date:   2019-09-12 21:0:54
 categories: linux
 tags: linux c assembly
+excertp: c程序和其对应的汇编程序
 author: qmsggg37
 mathjax: true
 ---
@@ -11,7 +12,7 @@ mathjax: true
 * content
 {:toc}
 
-c程序和其对应的汇编程序
+
 
 c语言程序:
 ```
