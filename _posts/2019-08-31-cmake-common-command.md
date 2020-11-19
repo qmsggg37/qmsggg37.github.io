@@ -17,6 +17,10 @@ SUBDIRS，INCLUDE _DIRECTORIES，LINK_DIRECTORIES，TARGET_LINK_LIBRARIES，SET 
 本节会引入更多的cmake指令，为了编写的方便，我们将按照cmake man page的顺序 来介绍各种指令，
 不再推荐使用的指令将不再介绍，INSTALL 系列指令在安装部分已经做 了非常详细的说明，本节也不在提及。
 (你可以将本章理解成选择性翻译，但是会加入更多 的个人理解)
+
+
+
+
 ## 一，基本指令
   - 1，ADD_DEFINITIONS
     向 C/C++编译器添加-D 定义，比如:
