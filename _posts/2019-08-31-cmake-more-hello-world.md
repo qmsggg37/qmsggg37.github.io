@@ -22,6 +22,8 @@ author: qmsggg37
        将 `doc` 目录 的内容以及 `COPYRIGHT/README` 安装到`/usr/share/doc/cmake/t2`
 
 
+
+
 ## 1，准备工作:
 在`/backup/cmake/`目录下建立 `t2` 目录。  
 将 `t1` 工程的 `main.c` 和 `CMakeLists.txt` 拷贝到 `t2` 目录中。
