@@ -9,9 +9,6 @@ author: qmsggg37
 mathjax: true
 ---
 
-* content
-{:toc}
-
 c语言程序:
 ```
 int g(int x)
