@@ -4,13 +4,19 @@ title:  "c程序和其对应的汇编程序"
 date:   2019-09-12 21:0:54
 categories: linux
 tags: linux c assembly
-excertp: c程序和其对应的汇编程序
 author: qmsggg37
-mathjax: true
 ---
 
 * content
 {:toc}
+
+掌握 React Hooks api 将更好的帮助你在工作中使用，对 React 的掌握更上一层楼。本系列将使用大量实例代码和效果展示，非常易于初学者和复习使用。
+
+截至目前，学习了官方的这么多 hooks api，我们也可以创造一些自己的 hooks，甚至官方也在鼓励开发者将组件逻辑抽象到自定义 hooks 中，方便复用。
+
+自定义 Hook 是一个函数，其名称以 “use” 开头，函数内部可以调用其他的 Hook。
+
+通过自定义 Hook，可以将组件逻辑提取到可重用的函数中。
 
 
 
