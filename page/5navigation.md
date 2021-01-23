@@ -21,6 +21,7 @@ type: page
 ## Web
 - [vue](https://cn.vuejs.org/)
 - [uni-app](https://uniapp.dcloud.io/)
+- [flutter](https://flutterchina.club/)
 
 ## Linux
 - 操作系统原理
