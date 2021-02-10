@@ -91,6 +91,7 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 ## Linux
 
 * [Linux源码](https://git.kernel.org/)
+* [Linux源码](https://mirrors.edge.kernel.org/pub/linux/kernel/)
 ### 在线阅读Linux的内核源码:
 
 * [https://code.woboq.org/linux/linux/](https://code.woboq.org/linux/linux/)
